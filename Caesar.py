@@ -51,7 +51,7 @@ def encrypt(): # 加密函数
     print(f"加密完成，密文为{translated}")
 
 def decrypt(): # 解密函数
-    text = input('请输入你需要加密的明文')
+    text = input('请输入你需要解密的密文')
     key = int(input('请输入偏移量(必须为整数)'))
     translated = ''
     for key in range(len(LETTERS)):
